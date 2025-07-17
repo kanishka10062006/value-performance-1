@@ -2,9 +2,9 @@ import java.util.*;
 public class Solution {
 
     public static void main(String[] args) {
-        int a=4;
-        System.out.printf("%d\n",a);
-        float b=5.678f;
+      Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        float b-sc.nextFloat();
+        System.out.println(a);
         System.out.printf("%.2f",b);
-    }
 }
